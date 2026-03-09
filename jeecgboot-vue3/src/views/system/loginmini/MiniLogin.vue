@@ -75,9 +75,9 @@
                             <a-checkbox v-model:checked="rememberMe">{{ t('sys.login.rememberMe') }}</a-checkbox>
                           </div>
                         </div>
-<!--                        <div class="aui-forget">-->
-<!--                          <a @click="forgetHandelClick"> {{ t('sys.login.forgetPassword') }}</a>-->
-<!--                        </div>-->
+                        <div class="aui-forget">
+                          <a @click="forgetHandelClick"> {{ t('sys.login.forgetPassword') }}</a>
+                        </div>
                       </div>
                     </div>
                   </a-form>
