@@ -9,7 +9,7 @@ const TrayIcons = {
   // 代码逻辑说明: 【JHHB-13】桌面应用消息通知
   normal: nativeImage.createFromPath(
     process.platform === 'win32'
-      ? path.join(_PATHS.publicRoot, 'logo.png')
+      ? path.join(_PATHS.publicRoot, 'jeecg_logo.png')
       : path.join(_PATHS.electronRoot, './icons/mac/tray-icon.png').replace(/[\\/]dist[\\/]/, '/')
   ),
   empty: nativeImage.createEmpty(),

@@ -39,13 +39,13 @@
       }
 
       function handleDownloadByBase64() {
-        downloadByBase64(imgBase64, 'logo.png');
+        downloadByBase64(imgBase64, 'jeecg_logo.png');
       }
 
       function handleDownloadByOnlineUrl() {
         downloadByOnlineUrl(
           'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5944817f47b8408e9f1442ece49d68ca~tplv-k3u1fbpfcp-watermark.image',
-          'logo.png'
+          'jeecg_logo.png'
         );
       }
       return {
